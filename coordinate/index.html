@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>canvas制作一个坐标查看器</title>
+    <style>
+        body {
+            background: #dddddd;
+        }
+
+        #canvas {
+            position: absolute;
+            left: 0px;
+            top: 20px;
+            margin: 20px;
+            background: #fff;
+            border: thin inset rgba(100, 150, 230, 0.5)
+        }
+
+        #readout {
+            margin-top: 10px;
+            margin-left: 15px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<div id="readout"></div>
+
+<canvas id="canvas" width="600" height="600">
+    Canvas not supported
+</canvas>
+
+<script src="js.js"></script>
+</body>
+</html>
