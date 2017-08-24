@@ -25,3 +25,15 @@ context.lineTo(canvas.width / 2 + Math.cos(angle) * handRadius, canvas.height / 
 ```
 context.clearRect(0, 0, canvas.width, canvas.height);
 ```
+
+## 描边
+
+```
+context.strokeRect(x, y, w, h);
+```
+
+## 填充
+
+```
+context.fillRect(x, y, w, h);
+```
