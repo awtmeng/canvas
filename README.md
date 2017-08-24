@@ -14,6 +14,7 @@ quadraticCurveTo(double cpx, double cpy, double x, double y)
 cpx, cpy 表示曲线控制点
 x，y表示描点
 ```
+## 绘制三次方贝塞尔曲线方法
 
 ```
 bezierCurveTo(double cpx, double cpy, double cp2x, double cp2y, double x, double y)
