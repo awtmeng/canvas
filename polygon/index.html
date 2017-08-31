@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>canvas绘制多边形</title>
+</head>
+<body>
+<canvas id="canvas" width="600" height="600"></canvas>
+<div>
+<label>sides</label>
+<select id="sidesSelect">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+</select>
+<label>startAngle</label>
+<select id="startAngleSelect">
+    <option value="30">30</option>
+    <option value="45">45</option>
+    <option value="60">60</option>
+</select>
+<label>fill</label>
+<input value="0" type="radio">
+<button id="draw">draw</button>
+<div id="fillCheckbox"></div>
+</div>
+<script src="js.js"></script>
+</body>
+</html>
